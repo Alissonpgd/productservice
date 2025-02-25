@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "ProductEvent",
+  "namespace": "com.ars.productservice.avro",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "price", "type": "double" }
+  ]
+}
