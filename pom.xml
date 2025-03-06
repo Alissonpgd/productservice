@@ -8,7 +8,7 @@
 		<version>3.4.3</version> <!-- Use a versão correta do Spring Boot -->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.ars</groupId>
 	<artifactId>product-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>product-service</name>
@@ -59,11 +59,10 @@
 		<dependency>
 			<groupId>org.apache.avro</groupId>
 			<artifactId>avro</artifactId>
-			<version>1.11.3</version> <!-- Use a versão correta do Avro -->
+			<version>1.11.4</version> <!-- Use a versão correta do Avro -->
 		</dependency>
 
 		<!-- Dependência do Confluent Kafka Avro Serializer -->
-		<!-- https://mvnrepository.com/artifact/io.confluent/kafka-avro-serializer -->
 		<dependency>
 			<groupId>io.confluent</groupId>
 			<artifactId>kafka-avro-serializer</artifactId>
